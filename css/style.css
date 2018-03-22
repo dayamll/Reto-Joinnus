@@ -1,0 +1,144 @@
+.map {
+  margin: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.map-container {
+  margin: 25px;
+  cursor: move;
+  outline: solid;
+  outline-width: 2px;
+  width: 1300px;
+  height: 530px;
+}
+
+.zone-list a {
+  cursor: pointer;
+}
+
+.zone-list .name {
+  padding-right: 8em;
+  display:inline-block;
+}
+
+.zone-list .price {
+  font-weight: 700;
+  position: absolute;
+  right: 5px;
+  font-size:1em;
+}
+
+.seat {
+  cursor: pointer;
+  stroke-width: 2;
+  stroke: #8c8c8c;
+}
+
+.seat.disabled {
+  cursor: not-allowed;
+  fill: #EEE;
+  stroke: #EEE;
+}
+
+.seat.selected {
+  stroke: #000;
+}
+
+.palcos-color {
+  fill: rgb(229, 132, 44);
+}
+
+.green-light {
+  fill: rgb(164, 195, 84);
+  color: rgb(164, 195, 84);
+}
+
+.green-light:not(.selected):not(.disabled):hover {
+  fill: rgb(157, 180, 95);
+}
+
+.selected.green-light {
+  fill: rgb(102, 121, 52);
+}
+
+.gold-rod {
+  fill: #DAA520;
+  color: #DAA520;
+}
+
+.gold-rod:not(.selected):not(.disabled):hover {
+  fill: #A47C18;
+}
+
+.selected.gold-rod {
+  fill: #6D5310;
+}
+
+.red-hard {
+  fill: #FF3C41;
+  color: #FF3C41;
+}
+
+.red-hard:not(.selected):not(.disabled):hover {
+  fill: #BF2D31;
+}
+
+.selected.red-hard {
+  fill: #801E21;
+}
+
+.dodger-blue {
+  fill: #1E90FF;
+  color: #1E90FF;
+}
+
+.dodger-blue:not(.selected):not(.disabled):hover {
+  fill: #176CBF;
+}
+
+.selected.dodger-blue {
+  fill: #0F4880;
+}
+
+.stage {
+  stroke: #8c8c8c;
+  stroke-width: 10;
+  fill: #eee;
+}
+
+.additional-accessories {
+  stroke: #8c8cff;
+  stroke-width: 2;
+  fill: #ddf;
+}
+
+.exit {
+  stroke: #8cff8c;
+  stroke-width: 2;
+  fill: #afa;
+}
+
+.stage-text {
+  fill: #000;
+  text-anchor: middle;
+}
+
+.row-text {
+  fill: #000;
+  text-anchor: middle;
+}
+
+.info {
+  background: #333333;
+  color: #fff;
+  display: none;
+  position: absolute;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+  margin: 10px;
+  padding: 0px 5px 0 5px;
+}

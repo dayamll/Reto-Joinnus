@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
-  <link rel="stylesheet" href="./dist/css/joinus.25f25cd96a58df7f258b.css">
-  <link rel="icon" href="./src/image/logo.png">
-  <title>Joinus</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Joinnus</title>
 </head>
+
 <body>
-  <div id="app"></div>
-  <script src="./dist/js/joinus.25f25cd96a58df7f258b.js"></script>
-  <script src="http://localhost:4000/js/joinus.js"></script>
+  <div class="map">
+    <div class="map-hud">
+      <button id="zoomIN">
+        <span>
+          Zoom +
+        </span>
+      </button>
+      <button id="zoomOUT">
+        <span>
+          Zoom -
+        </span>
+      </button>
+      <span id='zone-selector' class="dropdown">
+        <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+          <span id='zone-selected' zoneId='all'>Zonas</span>
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu hud">
+          <li id="all" class="zone-list">
+            <a>
+              <span class="name">Todas</span>
+            </a>
+          </li>
+        </ul>
+      </span>
+    </div>
+    <svg id="canvas" class="map-container"></svg>
+  </div>
+  <div id="tooltip" class="info"></div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
