@@ -32,6 +32,8 @@
     "webpack-dev-server": "2.9.3"
   },
   "dependencies": {
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
     "semantic-ui-react": "^0.78.3"
   }
 }

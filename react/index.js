@@ -1,7 +1,14 @@
-import React, { Component } from 'react';
-import ReactDom from 'react-dom';
-import ContainerExampleAlignment from './src/App.js';
-import './index.css';
+import React from 'react';
+import { createStore, combineReducers } from 'redux';
+import { Provider } from 'react-redux'
+import App from './src/components/App';
+import reducer from './src/reducers/reducer';
 
-const app = document.getElementById('app');
-ReactDom.render(<ContainerExampleAlignment />, app);
+const store = createStore(reducer);
+  
+ReactDOM.render (
+  <Provider store={store}>
+    <App/>
+  </Provider>,
+  document.getElementById('app')
+);
