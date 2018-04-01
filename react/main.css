@@ -1,5 +1,10 @@
-.button {
+#button {
     margin-left: 40%;
-    margin-top: 8%;
+    margin-top: 15%;
     margin-bottom: 5%;
+    background-color: rgb(7, 167, 7);
+    padding: 15px;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
 }

@@ -1,3 +1,0 @@
-## RETO JOinnus
-
-![Joinnus]('')

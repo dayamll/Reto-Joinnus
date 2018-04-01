@@ -6,14 +6,15 @@ const Svgseats = ({choose, seats}) => {
       <div className="col s10 offset-s1">
         <div className="center-align">
           {seats.map((seat)=> {
+            return(
               <svg id={seat.id} height="50" width="50">
-                <circle cx="35" cy="35" r="10" stroke={seat.color} onClick={(event)=>{
+                <circle cx="35" cy="35" r="10" stroke={seat.color} fill={seat.color} onClick={(event)=>{
                   choose(seat.id);
                 }} />
-              </svg>
+              </svg>)
           })}
           </div>
-            <a className="waves-effect btn button green">Continuar con la compra</a>¿
+            <a id="button">Continuar con la compra</a>
       </div>
    </div>
   )
