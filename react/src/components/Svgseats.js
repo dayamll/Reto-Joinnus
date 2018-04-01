@@ -8,7 +8,7 @@ const Svgseats = ({choose, seats}) => {
           {seats.map((seat)=> {
             return(
               <svg id={seat.id} height="50" width="50">
-                <circle cx="35" cy="35" r="10" stroke={seat.color} fill={seat.color} onClick={(event)=>{
+                <circle cx="35" cy="35" r="10"  fill={seat.color} onClick={(event)=>{
                   choose(seat.id);
                 }} />
               </svg>)
