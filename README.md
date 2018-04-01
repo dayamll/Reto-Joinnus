@@ -8,7 +8,7 @@
 + Llerena, Dayam (Front-end)
 + Herrera, Romina  (UX Designer)
 
-## Tecnología usada:
+
 ## Tecnología usada:
 
 - HTML5
