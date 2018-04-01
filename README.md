@@ -12,7 +12,9 @@
 ## Tecnología usada:
 
 - HTML5
+- CSS 3
 - React.js
+- Redux
 - SVG
 
 ## **Descripción del proyecto**
