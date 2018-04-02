@@ -1,7 +1,5 @@
 # **Reto Joinnus**
 
-![Reto](joinnuss.png)
-
 ## Equipo de trabajo
 
 + Jimenez, Laura (Front-end)
@@ -61,7 +59,16 @@ A continuación presentamos un resumen de las 5 entrevistas realizadas a potenci
 
 Mediante una encuesta hecha para saber que tanto prefieren los usuarios hacer comprar a entradas para eventos online, y qué tan fácil es para ellos, resumimos lo siguiente:
 
-Les es más práctico acercarse a la boleteria ya que los vendedores están familiarizados con la disposición del local y las zonas e inclusive recomiendan asientos porque saben detalles importantes del local.
+Les es más práctico acercarse a la boletería ya que los vendedores están familiarizados con la disposición del local y las zonas e inclusive recomiendan asientos porque saben detalles importantes del local.
+
+## **Conclusiones**
+
+- En general, el diseño web y del app les gusta a los usuarios ya que les es sencillo acceder a la información.
+- Sienten que el diseño y flujo tanto del app como de la página web es amistoso, y en general les permite cumplir su función.
+- Les gusta que la plataforma brinde eventos de distinto tipo y no estén centrados en un solo tipo de eventos.
+- Les gustaría un sistema de canje de puntos para eventos y demás ofertas.
+- El comprar y sobretodo elegir sus lugares les es complicados ya que las interfaces no les quedan claras, preferirían que fueran diseñadas en 3D.
+
 
 
 
