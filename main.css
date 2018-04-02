@@ -1,0 +1,27 @@
+.butacs {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.box {
+  /* border: 5px solid black;   */
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding: 50px;
+}
+
+#button {
+  margin-left: 40%;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  background-color: rgb(247, 169, 2);
+  padding: 15px;
+  color: white;
+  border-radius: 6px;
+  font-size: 20px;
+}

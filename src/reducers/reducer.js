@@ -9,7 +9,7 @@ const Reducer = (state = INIT_STATE, action) => {
           if (seat['occupied']) {
             trueSeats.push({ ...seat,
               occupied: false,
-              color: 'yellowgreen'
+              color: 'lightseagreen'
             });
           } else {
             trueSeats.push({ ...seat,

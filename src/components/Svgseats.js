@@ -7,14 +7,14 @@ const Svgseats = ({choose, seats}) => {
         <div className="center-align">
           {seats.map((seat)=> {
             return(
-              <svg id={seat.id} height="50" width="50">
-                <circle cx="35" cy="35" r="10"  fill={seat.color} onClick={(event)=>{
+              <svg id={seat.id} height="55" width="55">
+                <circle cx="20" cy="20" r="20"  fill={seat.color} onClick={(event)=>{
                   choose(seat.id);
                 }} />
               </svg>)
           })}
           </div>
-            <a id="button">Continuar con la compra</a>
+            {/* <a id="button">Continuar con la compra</a> */}
       </div>
    </div>
   )
