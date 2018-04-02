@@ -4,11 +4,11 @@ import '../../main.css';
 import Svgseats from './Svgseats';
 
 
-const App = ({ color, choose, seats }) => (
+const App = ({ choose, seatsGal, galeria, allzone, volver }) => (
   <div>
     <div className="butacs">
     <div className="box">Escenario</div>
-      <Svgseats color={color} choose={choose} seats={seats} />
+      <Svgseats choose={choose} seatsGal={seatsGal} galeria={galeria} allzone={allzone} volver={volver}/>
     </div>
   </div>
 );
@@ -19,12 +19,27 @@ const mapDispatchToProps = (dispatch) => ({
       type: 'CHOOSE',
       id
     })
+  },
+  galeria(id) {
+    dispatch({
+      type: 'GALERIA',
+      id
+    })
+  },
+  volver(id) {
+    dispatch({
+      type: 'VOLVER',
+      id
+    })
   }
 });
 
-const mapStateToProps = ({ color, seats }) => ({
-  color,
-  seats
+const mapStateToProps = ({ seatsGal, allzone }) => ({
+  seatsGal,
+  allzone
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(
+  mapStateToProps, 
+  mapDispatchToProps)
+  (App);

@@ -1,15 +1,16 @@
 import INIT_STATE from '../states/state';
 
 const Reducer = (state = INIT_STATE, action) => {
+  let falseZone = {};
   let trueSeats = [];
   switch (action.type) {
     case 'CHOOSE':
-      state['seats'].map((seat) => {
+      state['seatsGal'].map((seat) => {
         if (seat['id'] == action['id']) {
           if (seat['occupied']) {
             trueSeats.push({ ...seat,
               occupied: false,
-              color: 'lightseagreen'
+              color: 'darkseagreen'
             });
           } else {
             trueSeats.push({ ...seat,
@@ -23,7 +24,25 @@ const Reducer = (state = INIT_STATE, action) => {
         }
       });
       return { ...state,
-        seats: trueSeats
+        seatsGal: trueSeats
+      };
+    case 'GALERIA':
+      if (state['allzone'].click){
+        falseZone.click = false;
+        falseZone.display = 'hide';
+        falseZone.svg = 'show';
+      }
+      return { ...state,
+        allzone: falseZone
+      };
+    case 'VOLVER':
+    if (!state['allzone'].volver){
+      falseZone.click = true;
+      falseZone.display = 'show';
+      falseZone.svg = 'hide';
+      }
+      return { ...state,
+        allzone: falseZone
       };
     default:
       return state;
