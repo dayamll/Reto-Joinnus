@@ -56,5 +56,5 @@ A continuación presentamos un resumen de las 5 entrevistas realizadas a potenci
 
 Mediante una encuesta hecha para saber que tanto prefieren los usuarios hacer comprar a entradas para eventos online, y qué tan fácil es para ellos, resumimos lo siguiente:
 
-Les es más practico acercarse a la boleteria ya que los vendedores están familiarizados con la disposición del local y las zonas e inclusiva recomiendan asientos porque saben detalles importantes del local.
+Les es más practico acercarse a la boleteria ya que los vendedores están familiarizados con la disposición del local y las zonas e inclusive recomiendan asientos porque saben detalles importantes del local.
 
