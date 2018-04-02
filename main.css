@@ -18,16 +18,41 @@
   display: none;
 }
 
-.hide {
-  display: none;
-}
-
 #show {
   display: block;
+}
+
+.cazuela {
+  width: 100%;
+  height: 140px;
+  background-color: darkseagreen;
+  margin: 10px;
 }
 
 .galeria {
   width: 100%;
   height: 140px;
-  background-color: darkseagreen;
+  background-color: goldenrod;
+  margin: 10px;
+}
+
+.palcos-altos {
+  width: 100%;
+  height: 140px;
+  background-color: peru;
+  margin: 10px;
+}
+
+.palcos-bajos {
+  width: 100%;
+  height: 140px;
+  background-color: slateblue;
+  margin: 10px;
+}
+
+.platea {
+  width: 100%;
+  height: 140px;
+  background-color: darkslateblue;
+  margin: 10px;
 }

@@ -1,10 +1,8 @@
 import React from 'react';
 import { Popup, Button } from 'semantic-ui-react'
 
-
-
-const Svgseats = ({choose, seatsGal, galeria, allzone, volver}) => {
-  const mapSvg = seatsGal.map((seat)=> {
+const Platea = ({choose, seatsPla, ver_asientos, allzone, volver}) => {
+  const mapSvg = seatsPla.map((seat)=> {
     return(
       <Popup 
         trigger={
@@ -21,18 +19,17 @@ const Svgseats = ({choose, seatsGal, galeria, allzone, volver}) => {
     <div className="row">  
       <div className="col s10 offset-s1">
         <div className="center-align" id={allzone.display}>
-          <div className="galeria" onClick={
-            (event)=>{galeria();}
+          <div className="platea" onClick={
+            (event)=>{ver_asientos();}
             }></div>
         </div>
         <div className="center-align" id={allzone.svg}>
           {mapSvg}
           <Button size="small" onClick={(event)=>{volver();}}>Volver</Button>
         </div>
-          <Button size="big">Continuar con la compra</Button>
       </div>
    </div>
   )
 }
 
-export default Svgseats;
+export default Platea;

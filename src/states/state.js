@@ -36,9 +36,98 @@ const seatsGaleria = [
  ,{ "id" : "C-16-10", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
  ,{ "id" : "C-16-12", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
  ,{ "id" : "C-16-14", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false}  
+ ,{ "id" : "C-16-18", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "disabled", "free": false}   
+]
+
+const seatsCazuela = [
+ ,{ "id" : "C-17-4", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "kids", "free": false} 
+ ,{ "id" : "C-17-6", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
+ ,{ "id" : "C-17-8", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
+ ,{ "id" : "C-17-10", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
+ ,{ "id" : "C-17-12", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
+ ,{ "id" : "C-17-14", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false}  
+ ,{ "id" : "C-17-16", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
+ ,{ "id" : "C-17-18", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "kids", "free": false} 
+ ,{ "id" : "C-17-20", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
+ ,{ "id" : "C-17-22", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "elderly", "free": false} 
+ ,{ "id" : "C-17-24", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "elderly", "free": false} 
+ , { "id" : "C-18-1", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
+ ,{ "id" : "C-18-3", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+ ,{ "id" : "C-18-7", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-18-9", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+
+
+ ,{ "id" : "C-18-11", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-18-13", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
+ ,{ "id" : "C-18-15", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-18-17", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+ ,{ "id" : "C-18-19", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+ ,{ "id" : "C-18-21", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-18-23", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
+ ,{ "id" : "C-18-25", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
+ ,{ "id" : "C-18-27", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "disabled", "free": false} 
+ ,{ "id" : "C-18-29", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "disabled", "free": false} 
+
+ ,{ "id" : "C-18-2", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
+ ,{ "id" : "C-18-4", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+ ,{ "id" : "C-18-6", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}
+ ,{ "id" : "C-18-8", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-18-10", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-18-12", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-18-14", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
+ ,{ "id" : "C-18-16", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-18-18", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+ ,{ "id" : "C-18-20", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-18-22", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
+ ,{ "id" : "C-18-24", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
+ , { "id" : "C-19-25", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
+] 
+
+const seatsPalcosAltos = [
+ ,{ "id" : "C-19-45", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
+ ,{ "id" : "C-19-46", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
+ ,{ "id" : "C-19-47", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+ ,{ "id" : "C-19-48", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-19-49", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-19-50", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "C-19-51", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "D-19-40", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
+ ,{ "id" : "D-19-41", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+ ,{ "id" : "D-19-42", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "D-19-43", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "D-19-44", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "D-19-45", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
+ ,{ "id" : "D-19-46", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
+ ,{ "id" : "D-19-47", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+ ,{ "id" : "D-19-48", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+ ,{ "id" : "D-19-49", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}
  ,{ "id" : "C-16-16", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
- ,{ "id" : "C-16-18", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "disabled", "free": false} 
- ,{ "id" : "C-16-20", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
+]
+
+const seatsPalcosBajos = [
+  ,{ "id" : "C-19-26", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+  ,{ "id" : "C-19-27", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+  ,{ "id" : "C-19-28", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+  ,{ "id" : "C-19-29", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+  ,{ "id" : "C-19-30", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+  ,{ "id" : "C-19-31", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
+  ,{ "id" : "C-19-32", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+  ,{ "id" : "C-19-33", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+  ,{ "id" : "C-19-34", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+  ,{ "id" : "C-19-35", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+  ,{ "id" : "C-19-36", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
+  ,{ "id" : "C-19-37", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
+  ,{ "id" : "C-19-38", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "disabled", "free": false} 
+  ,{ "id" : "C-19-39", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "disabled", "free": false} 
+  ,{ "id" : "C-19-40", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}
+  ,{ "id" : "C-19-41", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
+  ,{ "id" : "C-19-42", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+  ,{ "id" : "C-19-43", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+  ,{ "id" : "C-19-44", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
+]
+
+const seatsPlatea = [
+  ,{ "id" : "C-16-20", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
  ,{ "id" : "C-16-22", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "elderly", "free": false} 
  ,{ "id" : "C-16-24", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "elderly", "free": false} 
  ,{ "id" : "C-16-26", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "disabled", "free": false} 
@@ -57,93 +146,17 @@ const seatsGaleria = [
  ,{ "id" : "C-17-27", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "disabled", "free": false} 
  ,{ "id" : "C-17-29", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "disabled", "free": false} 
  ,{ "id" : "C-17-2", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "kids", "free": false}  
-
-//  ,{ "id" : "C-17-4", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-17-6", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-17-8", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-17-10", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-17-12", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-17-14", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false}  
-//  ,{ "id" : "C-17-16", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-17-18", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-17-20", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-17-22", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "elderly", "free": false} 
-//  ,{ "id" : "C-17-24", "zone":"C", "color":"darkseagreen", "price" : 50, "category" : "elderly", "free": false} 
-//  , { "id" : "C-18-1", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
-//  ,{ "id" : "C-18-3", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-18-7", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-18-9", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-
-
-//  ,{ "id" : "C-18-11", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-18-13", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
-//  ,{ "id" : "C-18-15", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-18-17", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-18-19", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-18-21", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-18-23", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
-//  ,{ "id" : "C-18-25", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
-//  ,{ "id" : "C-18-27", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "disabled", "free": false} 
-//  ,{ "id" : "C-18-29", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "disabled", "free": false} 
-
-//  ,{ "id" : "C-18-2", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
-//  ,{ "id" : "C-18-4", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-18-6", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}
-//  ,{ "id" : "C-18-8", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-18-10", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-18-12", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-18-14", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
-//  ,{ "id" : "C-18-16", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-18-18", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-18-20", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-18-22", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
-//  ,{ "id" : "C-18-24", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
-
-//  , { "id" : "C-19-25", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
-//  ,{ "id" : "C-19-26", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-19-27", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-19-28", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-29", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-30", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-31", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
-//  ,{ "id" : "C-19-32", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-33", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-19-34", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-19-35", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-36", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
-//  ,{ "id" : "C-19-37", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "elderly", "free": false} 
-//  ,{ "id" : "C-19-38", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "disabled", "free": false} 
-//  ,{ "id" : "C-19-39", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "disabled", "free": false} 
-
-//  ,{ "id" : "C-19-40", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
-//  ,{ "id" : "C-19-41", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-19-42", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-43", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-44", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-45", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
-//  ,{ "id" : "C-19-46", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
-//  ,{ "id" : "C-19-47", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "C-19-48", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-49", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-50", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "C-19-51", "zone":"C", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
- 
-//  ,{ "id" : "D-19-40", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
-//  ,{ "id" : "D-19-41", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "D-19-42", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "D-19-43", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "D-19-44", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "D-19-45", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
-//  ,{ "id" : "D-19-46", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false}  
-//  ,{ "id" : "D-19-47", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "kids", "free": false} 
-//  ,{ "id" : "D-19-48", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false} 
-//  ,{ "id" : "D-19-49", "zone":"D", "color":"darkseagreen", "price" : 60, "category" : "adults", "free": false}  
 ]
 
-const allZone = {'click': true, 'display': 'show', 'svg':'hide', 'volver': false}
+const allZone =
+{'id':'Cazuela','click': true, 'display': 'show', 'svg':'hide', 'volver': false}
 
   const INIT_STATE = {
+    seatsCaz: seatsCazuela,
     seatsGal: seatsGaleria,
+    seatsPalAlt: seatsPalcosAltos,
+    seatsPalBaj: seatsPalcosBajos,
+    seatsPla: seatsPlatea,
     allzone : allZone
   };
 

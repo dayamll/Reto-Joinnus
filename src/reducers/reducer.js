@@ -26,7 +26,7 @@ const Reducer = (state = INIT_STATE, action) => {
       return { ...state,
         seatsGal: trueSeats
       };
-    case 'GALERIA':
+    case 'VER_ASIENTOS':
       if (state['allzone'].click){
         falseZone.click = false;
         falseZone.display = 'hide';
