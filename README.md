@@ -39,6 +39,8 @@ El modelo de negocio radica en cobrar comisiones a los organizadores que utilice
 
 
 ### User persona
+
+Para poder definir a los usuarios potenciales utilizamos el método de user persona, fijar su rango de edad, metas, marcas y en general una identidad para que así el producto pueda estar más definido.
 ![userpersonajoinnus](https://user-images.githubusercontent.com/32309909/38176133-18eef1c4-35af-11e8-9ae7-4f782831c7a1.png)
 
 ### Benchmark
