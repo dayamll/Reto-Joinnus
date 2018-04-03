@@ -1,187 +1,187 @@
 const seatsCazuela = [
-  ,{ "id" : "Cazuela A-30", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-29", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-28", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-27", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-26", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-25", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-24", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
-  ,{ "id" : "Cazuela A-23", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-22", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-21", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-20", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-19", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-18", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-17", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-16", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-15", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-14", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-13", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-12", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-11", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-10", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-9", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-8", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-7", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-6", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-5", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
-  ,{ "id" : "Cazuela A-4", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-3", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-2", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela A-1", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-30", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-29", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-28", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-27", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-26", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-25", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
-  ,{ "id" : "Cazuela B-24", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-23", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-22", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-21", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-20", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-19", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-18", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-17", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-16", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
-  ,{ "id" : "Cazuela B-15", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-14", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-13", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-12", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-11", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-10", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-9", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-8", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
-  ,{ "id" : "Cazuela B-7", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-6", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-5", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-4", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-3", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-2", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela B-1", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela C-30", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}     
-  ,{ "id" : "Cazuela C-29", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
-  ,{ "id" : "Cazuela C-28", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
-  ,{ "id" : "Cazuela C-27", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
-  ,{ "id" : "Cazuela C-26", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
-  ,{ "id" : "Cazuela C-25", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
-  ,{ "id" : "Cazuela C-24", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
-  ,{ "id" : "Cazuela C-23", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
-  ,{ "id" : "Cazuela C-22", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
-  ,{ "id" : "Cazuela C-21", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
-  ,{ "id" : "Cazuela C-20", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-19", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-18", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-17", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-16", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-15", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-14", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-13", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-12", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-11", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-10", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-9", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-8", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-7", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-6", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-5", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-4", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-3", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-2", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela C-1", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}  
+  ,{ "id" : "Cazuela Alta A-30", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-29", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-28", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-27", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-26", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-25", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-24", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
+  ,{ "id" : "Cazuela Alta A-23", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-22", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-21", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-20", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-19", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-18", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-17", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-16", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-15", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-14", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-13", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-12", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-11", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-10", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-9", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-8", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-7", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-6", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-5", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
+  ,{ "id" : "Cazuela Alta A-4", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-3", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-2", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-1", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-30", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-29", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-28", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-27", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-26", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-25", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
+  ,{ "id" : "Cazuela Lateral B-24", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-23", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-22", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-21", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Central B-20", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Central B-19", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Central B-18", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Central B-17", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Central B-16", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
+  ,{ "id" : "Cazuela Central B-15", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Central B-14", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Central B-13", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Central B-12", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Central B-11", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-10", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-9", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-8", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
+  ,{ "id" : "Cazuela Lateral B-7", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-6", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-5", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-4", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-3", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-2", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-1", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral C-30", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}     
+  ,{ "id" : "Cazuela Lateral C-29", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+  ,{ "id" : "Cazuela Lateral C-28", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+  ,{ "id" : "Cazuela Lateral C-27", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+  ,{ "id" : "Cazuela Lateral C-26", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+  ,{ "id" : "Cazuela Lateral C-25", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+  ,{ "id" : "Cazuela Lateral C-24", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+  ,{ "id" : "Cazuela Lateral C-23", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+  ,{ "id" : "Cazuela Lateral C-22", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+  ,{ "id" : "Cazuela Lateral C-21", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+  ,{ "id" : "Cazuela Central C-20", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Central C-19", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Central C-18", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Central C-17", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Central C-16", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Central C-15", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Central C-14", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Central C-13", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Central C-12", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Central C-11", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-10", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-9", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-8", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-7", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-6", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-5", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-4", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-3", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-2", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-1", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}  
  ] 
  
 const seatsGaleria = [  
- ,{ "id" : "Galeria D-30", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-29", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-28", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-27", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-26", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-25", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-24", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-23", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-22", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-21", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-20", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}     
- ,{ "id" : "Galeria D-19", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-18", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-17", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-16", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-15", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-14", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-13", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-12", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-11", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-10", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-9", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-8", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-7", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-6", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-5", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-4", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-3", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-2", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria D-1", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}    
- ,{ "id" : "Galeria E-30", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}   
- ,{ "id" : "Galeria E-29", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-28", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-27", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-26", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-25", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-24", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-23", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-22", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-21", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-20", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-19", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-18", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-17", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-16", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-15", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-14", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-13", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-12", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-11", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-10", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-9", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-8", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-7", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-6", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-5", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
- ,{ "id" : "Galeria E-4", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-3", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-2", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria E-1", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-30", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}   
- ,{ "id" : "Galeria F-29", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-28", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-27", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-26", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-25", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-24", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-23", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-22", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-21", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-20", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-19", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-18", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-17", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-16", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-15", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-14", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-13", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-12", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-11", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-10", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-9", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-8", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-7", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-6", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-5", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
- ,{ "id" : "Galeria F-4", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-3", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-2", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria F-1", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral D-30", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-29", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-28", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-27", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-26", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-25", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-24", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-23", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-22", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-21", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Central D-20", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}     
+ ,{ "id" : "Galeria Central D-19", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Central D-18", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Central D-17", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Central D-16", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Central D-15", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Central D-14", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Central D-13", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Central D-12", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Central D-11", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-10", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-9", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-8", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-7", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-6", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-5", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-4", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-3", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-2", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-1", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}    
+ ,{ "id" : "Galeria Lateral E-30", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}   
+ ,{ "id" : "Galeria Lateral E-29", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-28", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-27", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-26", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-25", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-24", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-23", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-22", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-21", "zone":"Galeria", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-20", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-19", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-18", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-17", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-16", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-15", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-14", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-13", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-12", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-11", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-10", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-9", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-8", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-7", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-6", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-5", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
+ ,{ "id" : "Galeria Lateral E-4", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-3", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-2", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-1", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-30", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}   
+ ,{ "id" : "Galeria Lateral F-29", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-28", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-27", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-26", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-25", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-24", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-23", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-22", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-21", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-20", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-19", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-18", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-17", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-16", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-15", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-14", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-13", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-12", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-11", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-10", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-9", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-8", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-7", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-6", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-5", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
+ ,{ "id" : "Galeria Lateral F-4", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-3", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-2", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-1", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
 ]
 
 const seatsPalcosAltos = [ 
