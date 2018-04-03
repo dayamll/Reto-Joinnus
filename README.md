@@ -26,6 +26,14 @@ Como resultado de la evaluación se requiere:
 • Informe de estudio de validación de interfaces UX UI (web y móvil) con usuarios potenciales.
 • Optimización de interfaces UX UI (web y móvil) en función a los inputs dados por usuarios potenciales
 
+## Desarrollado para
+
+[Joinnus](https://www.joinnus.com/PE)
+
+y
+
+[Laboratoria](http://laboratoria.la)
+
 
 
 ## **Research**
@@ -62,6 +70,9 @@ A continuación presentamos un resumen de las 5 entrevistas realizadas a potenci
 Mediante una encuesta hecha para saber que tanto prefieren los usuarios hacer comprar a entradas para eventos online, y qué tan fácil es para ellos, resumimos lo siguiente:
 
 Les es más práctico acercarse a la boletería ya que los vendedores están familiarizados con la disposición del local y las zonas e inclusive recomiendan asientos porque saben detalles importantes del local.
+
+## Prototipo de alta fidelidad 
+[Ver Demo aquí]()
 
 ## **Conclusiones**
 
