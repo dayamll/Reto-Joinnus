@@ -6,11 +6,11 @@ const Palcosalt = ({choose, seatsPalAlt, ver_asientos, allzone, volver}) => {
     return(
       <Popup 
         trigger={
-          <svg id={seat.id} height="40" width="55">
-            <rect cx="20" cy="20"  rx="10" ry="40" width="40" height="40"  fill={seat.color} onClick={(event)=>{choose(seat.id);}} />
+          <svg id={seat.id} height="25" width="35">
+            <rect cx="20" cy="20"  rx="5" ry="40" width="25" height="25"  fill={seat.color} onClick={(event)=>{choose(seat.id);}} />
           </svg>}
         header={seat.id}
-        content={seat.price}
+        content={'Precio: ' +seat.price}
       />
     )
   }) 
