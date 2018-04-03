@@ -1,7 +1,7 @@
 import INIT_STATE from '../states/state';
 
 const Reducer = (state = INIT_STATE, action) => {
-  let falseZone = {};
+  let falseZone = [];
   let trueSeats = [];
   switch (action.type) {
     case 'CHOOSE':
@@ -26,27 +26,45 @@ const Reducer = (state = INIT_STATE, action) => {
       return { ...state,
         seatsGal: trueSeats
       };
-    case 'VER_ASIENTOS':
-      if (state['allzone'].click){
-        falseZone.click = false;
-        falseZone.display = 'hide';
-        falseZone.svg = 'show';
-      }
-      return { ...state,
-        allzone: falseZone
-      };
-    case 'VOLVER':
-    if (!state['allzone'].volver){
-      falseZone.click = true;
-      falseZone.display = 'show';
-      falseZone.svg = 'hide';
-      }
-      return { ...state,
-        allzone: falseZone
-      };
-    default:
-      return state;
-  }
-};
+      case 'VER_ASIENTOS':
+      state['allzone'].map((zone) => {
+        if (zone['id'] == action['id']) {
+          if (zone['click']) {
+            falseZone.push({ ...zone,
+              click: false,
+              display: 'hide',
+              svg: 'show'
+            });
+          }
+        } else {
+          falseZone.push({ ...zone
+          });
+        }
+      });
+        return { ...state,
+          allzone: falseZone
+        };
+      case 'VOLVER':
+      state['allzone'].map((zone) => {
+        if (zone['id'] == action['id']) {
+          if (!zone['click']) {
+            falseZone.push({ ...zone,
+              click: true,
+              display: 'show',
+              svg: 'hide'
+            });
+          }
+        } else {
+          falseZone.push({ ...zone
+          });
+        }
+      });
+        return { ...state,
+          allzone: falseZone
+        };
+      default:
+        return state;
+    }
+  };
 
 export default Reducer;

@@ -18,14 +18,14 @@ const Galeria = ({choose, seatsGal, ver_asientos, allzone, volver}) => {
   return(
     <div className="row">  
       <div className="col s10 offset-s1">
-        <div className="center-align" id={allzone.display}>
+        <div className={allzone[1].display}>
           <div className="galeria" onClick={
-            (event)=>{ver_asientos();}
+            (event)=>{ver_asientos(allzone[1].id);}
             }></div>
         </div>
-        <div className="center-align" id={allzone.svg}>
+        <div className={allzone[1].svg}>
           {mapSvg}
-          <Button size="small" onClick={(event)=>{volver();}}>Volver</Button>
+          <Button size="small" onClick={(event)=>{volver(allzone[1].id);}}>Volver</Button>
         </div>
       </div>
    </div>

@@ -18,14 +18,14 @@ const Palcosbaj = ({choose, seatsPalBaj, ver_asientos, allzone, volver}) => {
   return(
     <div className="row">  
       <div className="col s10 offset-s1">
-        <div className="center-align" id={allzone.display}>
+        <div className={allzone[3].display}>
           <div className="palcos-bajos" onClick={
-            (event)=>{ver_asientos();}
+            (event)=>{ver_asientos(allzone[3].id);}
             }></div>
         </div>
-        <div className='center-align' id={allzone.svg}>
+        <div className={allzone[3].svg}>
           {mapSvg}
-          <Button size="small" onClick={(event)=>{volver();}}>Volver</Button>
+          <Button size="small" onClick={(event)=>{volver(allzone[3].id);}}>Volver</Button>
         </div>
       </div>
    </div>

@@ -463,8 +463,13 @@ const seatsPlatea = [
   ,{ "id" : "Platea O-1", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false}  
 ]
 
-const allZone =
-{'id':'Cazuela','click': true, 'display': 'show', 'svg':'hide', 'volver': false}
+const allZone = [
+  {'id':'Cazuela','click': true, 'display': 'show', 'svg':'hide', 'volver': false},
+  {'id':'Galeria','click': true, 'display': 'show', 'svg':'hide', 'volver': false},
+  {'id':'PalcosAltos','click': true, 'display': 'show', 'svg':'hide', 'volver': false},
+  {'id':'PalcosBajos','click': true, 'display': 'show', 'svg':'hide', 'volver': false},
+  {'id':'Platea','click': true, 'display': 'show', 'svg':'hide', 'volver': false}
+  ]  
 
   const INIT_STATE = {
     seatsCaz: seatsCazuela,
