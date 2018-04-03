@@ -28,11 +28,7 @@ Como resultado de la evaluación se requiere:
 
 ## Desarrollado para
 
-[Joinnus](https://www.joinnus.com/PE)
-
-y
-
-[Laboratoria](http://laboratoria.la)
+[Joinnus](https://www.joinnus.com/PE) y [Laboratoria](http://laboratoria.la)
 
 
 
