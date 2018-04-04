@@ -68,7 +68,8 @@ Mediante una encuesta hecha para saber que tanto prefieren los usuarios hacer co
 Les es más práctico acercarse a la boletería ya que los vendedores están familiarizados con la disposición del local y las zonas e inclusive recomiendan asientos porque saben detalles importantes del local.
 
 ## Prototipo de alta fidelidad 
-[Ver Demo aquí](https://marvelapp.com/13h3hajg/screen/40585483)
+[Ver Demo Mobile](https://marvelapp.com/13h3hajg/screen/40585483)
+[Ver Demo Desktop](https://marvelapp.com/664f428/screen/40640803)
 
 ## **Conclusiones**
 
