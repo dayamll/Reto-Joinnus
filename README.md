@@ -1,5 +1,12 @@
 # **Reto Joinnus**
 
+![benchmarkjoinnus](./assets/img2.png)
+![benchmarkjoinnus](./assets/img3.png)
+![benchmarkjoinnus](./assets/img6.png)
+![benchmarkjoinnus](./assets/img4.png)
+![benchmarkjoinnus](./assets/img5.png)
+
+
 ## Equipo de trabajo
 
 + Jimenez, Laura (Front-end)
