@@ -31,10 +31,7 @@ const Cazuela = ({move, zoom, zoomdata, choosecaz, seatsCaz, ver_asientos, allzo
           </div>
           <Button className='btn-volver' size="small" onClick={(event)=>{volver(allzone[0].id);}}>Volver</Button>
           <Button icon onClick={(event)=>{zoom(zoomdata[0].id)}}>
-            <Icon name='zoom' />
-          </Button>
-          <Button icon onClick={(event)=>{zoom(zoomdata[0].id)}}>
-            <Icon name='zoom out' />
+            <Icon id='icon' name='zoom' />
           </Button>
         </div>
       </div>

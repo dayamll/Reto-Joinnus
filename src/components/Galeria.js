@@ -31,10 +31,7 @@ const Galeria = ({move, zoom, zoomdata,choosegal, seatsGal, ver_asientos, allzon
           </div>
           <Button className='btn-volver' size="small" onClick={(event)=>{volver(allzone[1].id);}}>Volver</Button>
           <Button icon onClick={(event)=>{zoom(zoomdata[1].id)}}>
-            <Icon name='zoom' />
-          </Button>
-          <Button icon onClick={(event)=>{zoom(zoomdata[1].id)}}>
-            <Icon name='zoom out' />
+            <Icon id='icon' name='zoom' />
           </Button>
         </div>
       </div>

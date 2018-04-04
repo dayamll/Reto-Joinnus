@@ -1,10 +1,10 @@
 import React from 'react';
 import {Button} from 'semantic-ui-react'
 
-const Leyenda = () => {
+const Leyenda = ({compra}) => {
     return (
         <div id='Leyenda'>
-          <Button size="big" >Continuar con la Compra</Button>
+          <Button size="big" onClick={(event)=>{compra()}}>Continuar con la Compra</Button>
           <p>Leyenda:</p>
           <table>
             <tr>

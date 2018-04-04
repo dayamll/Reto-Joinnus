@@ -8,21 +8,28 @@ import Palcosbaj from './Palcos_bajos';
 import Platea from './Platea';
 import Leyenda from './Leyenda'
 
-const App = ({move,zoom,zoomdata,choosecaz,choosegal,choosepalalt,choosepalbaj,choosepla, seatsCaz,seatsGal, seatsPalAlt,seatsPalBaj, seatsPla, ver_asientos, allzone, volver }) => (
+const App = ({compra,move,zoom,zoomdata,choosecaz,choosegal,choosepalalt,choosepalbaj,choosepla, seatsCaz,seatsGal, seatsPalAlt,seatsPalBaj, seatsPla, ver_asientos, allzone, volver }) => (
   <div>
     <div className="butacs">
     <div className="box"></div>
-      <Leyenda />
+      <Leyenda compra={compra}/>
       <Cazuela move={move} zoom={zoom} zoomdata={zoomdata} choosecaz={choosecaz} seatsCaz={seatsCaz} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
       <Galeria move={move} zoom={zoom} zoomdata={zoomdata} choosegal={choosegal} seatsGal={seatsGal} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
       <Palcosalt move={move} zoom={zoom} zoomdata={zoomdata} choosepalalt={choosepalalt} seatsPalAlt={seatsPalAlt} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
       <Palcosbaj move={move} zoom={zoom} zoomdata={zoomdata} choosepalbaj={choosepalbaj} seatsPalBaj={seatsPalBaj} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
       <Platea move={move} zoom={zoom} zoomdata={zoomdata} choosepla={choosepla} seatsPla={seatsPla} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <div className="escenario">Escenario</div>
     </div>
   </div>
 );
 
 const mapDispatchToProps = (dispatch) => ({
+  compra(id) {
+    dispatch({
+      type: 'COMPRA',
+      id
+    })
+  },
   move(id) {
     dispatch({
       type: 'MOVE',

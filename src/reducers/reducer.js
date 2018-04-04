@@ -183,7 +183,9 @@ const Reducer = (state = INIT_STATE, action) => {
                 zoom: true,
                 scale: 'zoomin'
               });
+              document.getElementById('icon').classList.add('out');
             }else {
+              document.getElementById('icon').classList.remove('out');
               trueZoom.push({ ...divZoom,
                 zoom: false,
                 scale: 'zoomout'
@@ -202,7 +204,25 @@ const Reducer = (state = INIT_STATE, action) => {
       // var y = -(event.clientY/10);
       // document.getElementById('zoomin').style.marginLeft = x + 'px';
       // document.getElementById('zoomin').style.marginTop = y + 'px';
-
+    //   case 'COMPRA':
+    //   const arrays = [
+    //     state['seatsCaz'],state['seatsGal'],state['seatsPalAlt'],state['seatsPalBaj'],state['seatsPla']
+    //   ]
+    //   var select;
+    //   arrays.map((array) => {
+    //     array.map((seats) => {
+    //     if(!seats['free']){
+    //      select = false;
+    //     } else {
+    //       select = true;
+    //     }
+    //     if(!select){
+    //       alert('Seleccione al menos un asiento')
+    //     } else {
+    //       alert('Compra exitosa');
+    //     }
+    //   })
+    // })
       default:
         return state;
     }

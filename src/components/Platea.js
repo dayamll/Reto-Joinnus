@@ -30,11 +30,8 @@ const Platea = ({move, zoom, zoomdata,choosepla, seatsPla, ver_asientos, allzone
            </div>
           </div>
           <Button className='btn-volver' size="small" onClick={(event)=>{volver(allzone[4].id);}}>Volver</Button>
-          <Button icon onClick={(event)=>{zoom(zoomdata[4].id)}}>
-            <Icon name='zoom' />
-          </Button>
-          <Button icon onClick={(event)=>{zoom(zoomdata[4].id)}}>
-            <Icon name='zoom out' />
+          <Button id='zoom-box' icon onClick={(event)=>{zoom(zoomdata[4].id)}}>
+            <Icon id='icon' name='zoom' />
           </Button>
         </div>
       </div>

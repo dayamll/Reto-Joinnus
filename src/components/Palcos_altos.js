@@ -31,10 +31,7 @@ const Palcosalt = ({move, zoom, zoomdata,choosepalalt, seatsPalAlt, ver_asientos
           </div>
           <Button className='btn-volver' size="small" onClick={(event)=>{volver(allzone[2].id);}}>Volver</Button>
           <Button icon onClick={(event)=>{zoom(zoomdata[2].id)}}>
-            <Icon name='zoom' />
-          </Button>
-          <Button icon onClick={(event)=>{zoom(zoomdata[2].id)}}>
-            <Icon name='zoom out' />
+            <Icon id='icon' name='zoom' />
           </Button>
         </div>
       </div>

@@ -31,10 +31,7 @@ const Palcosbaj = ({move, zoom, zoomdata,choosepalbaj, seatsPalBaj, ver_asientos
           </div>
           <Button className='btn-volver' size="small" onClick={(event)=>{volver(allzone[3].id);}}>Volver</Button>
           <Button icon onClick={(event)=>{zoom(zoomdata[3].id)}}>
-            <Icon name='zoom' />
-          </Button>
-          <Button icon onClick={(event)=>{zoom(zoomdata[3].id)}}>
-            <Icon name='zoom out' />
+            <Icon id='icon' name='zoom' />
           </Button>
         </div>
       </div>

@@ -4,11 +4,21 @@
   margin-top: 50px;
 }
 
+.escenario {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 #zoomout {
   width: 100%;
   transform: scale(1.0);
   overflow: hidden;
-  margin-left: 0px;
+  margin-left: 11px;
   margin-top: 0px;
 }
 
@@ -21,6 +31,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
+  margin-left: 11px;
 }
 
 .box {
