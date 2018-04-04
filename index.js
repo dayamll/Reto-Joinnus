@@ -1,15 +1,18 @@
 import React from 'react';
-import { createStore, combineReducers } from 'redux';
-import {render} from 'react-dom'
+import { render } from 'react-dom'
+// import { createStore, combineReducers } from 'redux';
 import { Provider } from 'react-redux'
-import App from './src/components/App';
-import reducer from './src/reducers/reducer';
+import App from './src/components/App'
+// import reducer from './src/reducers/reducer';
+import './main.css';
 
-const store = createStore(reducer);
-  
-render (
-  <Provider store={store}>
-    <App/>
-  </Provider>,
-  document.getElementById('app')
+// const store = createStore(reducer);
+
+ReactDOM.render(
+  <Provaider>
+    <App />
+  </ Provaider>
 );
+
+document.getElementById('root')
+

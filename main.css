@@ -56,3 +56,40 @@
   background-color: darkslateblue;
   margin: 10px;
 }
+
+.login {
+  padding-right: 30px;
+  color: white;
+}
+
+.ui.menu {
+  border-radius: 0px;
+  padding: 10px;
+}
+
+.login:hover {
+  padding-right: 30px;
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+.ui.teal.button,
+.ui.teal.buttons .button {
+  background-color: #42A692;
+}
+
+.margin {
+  margin: 100px !important;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 40px;
+}
