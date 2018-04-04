@@ -10,19 +10,23 @@ const Reducer = (state = INIT_STATE, action) => {
   switch (action.type) {
     case 'CHOOSECAZ':
       state['seatsCaz'].map((seat) => {
-        if (seat['id'] == action['id']) {
+        if (seat['id'] == action['id'] && seat['free'] !== 'occupied') {
           if (seat['free']) {
             trueSeatsCaz.push({ ...seat,
               free: false,
               color: 'darkseagreen'
             });
-          } else {
+          }else {
             trueSeatsCaz.push({ ...seat,
               free: true,
               color: 'red'
             });
           }
-        } else {
+        } else if(seat['id'] == action['id'] && seat['free'] == 'occupied'){
+          trueSeatsCaz.push({ ...seat,
+            color: 'silver'
+          });
+        }else {
           trueSeatsCaz.push({ ...seat
           });
         }

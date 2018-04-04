@@ -1,9 +1,9 @@
 const seatsCazuela = [
   ,{ "id" : "Cazuela Alta A-30", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela Alta A-29", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-29", "zone":"Cazuela Alta", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Cazuela Alta A-28", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Alta A-27", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela Alta A-26", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-26", "zone":"Cazuela Alta", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Cazuela Alta A-25", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Alta A-24", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
   ,{ "id" : "Cazuela Alta A-23", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -12,7 +12,7 @@ const seatsCazuela = [
   ,{ "id" : "Cazuela Alta A-20", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Alta A-19", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Alta A-18", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela Alta A-17", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-17", "zone":"Cazuela Alta", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Cazuela Alta A-16", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Alta A-15", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Alta A-14", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -28,14 +28,14 @@ const seatsCazuela = [
   ,{ "id" : "Cazuela Alta A-4", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Alta A-3", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Alta A-2", "zone":"Cazuela Alta", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Cazuela Alta A-1", "zone":"Cazuela", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Alta A-1", "zone":"Cazuela", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
   ,{ "id" : "Cazuela Lateral B-30", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Lateral B-29", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Lateral B-28", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Lateral B-27", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Lateral B-26", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Lateral B-25", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
-  ,{ "id" : "Cazuela Lateral B-24", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Cazuela Lateral B-24", "zone":"Cazuela Lateral", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
   ,{ "id" : "Cazuela Lateral B-23", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Lateral B-22", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Cazuela Lateral B-21", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -79,7 +79,7 @@ const seatsCazuela = [
  ,{ "id" : "Cazuela Central C-13", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Cazuela Central C-12", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Cazuela Central C-11", "zone":"Cazuela Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela Lateral C-10", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-10", "zone":"Cazuela Lateral", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
  ,{ "id" : "Cazuela Lateral C-9", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Cazuela Lateral C-8", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Cazuela Lateral C-7", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
@@ -87,14 +87,14 @@ const seatsCazuela = [
  ,{ "id" : "Cazuela Lateral C-5", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Cazuela Lateral C-4", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Cazuela Lateral C-3", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Cazuela Lateral C-2", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Cazuela Lateral C-2", "zone":"Cazuela Lateral", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}   
  ,{ "id" : "Cazuela Lateral C-1", "zone":"Cazuela Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}  
  ] 
  
 const seatsGaleria = [  
  ,{ "id" : "Galeria Lateral D-30", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Galeria Lateral D-29", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria Lateral D-28", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Lateral D-28", "zone":"Galeria Lateral", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}   
  ,{ "id" : "Galeria Lateral D-27", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Galeria Lateral D-26", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Galeria Lateral D-25", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
@@ -104,7 +104,7 @@ const seatsGaleria = [
  ,{ "id" : "Galeria Lateral D-21", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Galeria Central D-20", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}     
  ,{ "id" : "Galeria Central D-19", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
- ,{ "id" : "Galeria Central D-18", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
+ ,{ "id" : "Galeria Central D-18", "zone":"Galeria Central", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}   
  ,{ "id" : "Galeria Central D-17", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Galeria Central D-16", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
  ,{ "id" : "Galeria Central D-15", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "disabled", "free": false}   
@@ -138,7 +138,7 @@ const seatsGaleria = [
  ,{ "id" : "Galeria Central E-17", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Central E-16", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Central E-15", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria Central E-14", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central E-14", "zone":"Galeria Central", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
  ,{ "id" : "Galeria Central E-13", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Central E-12", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Central E-11", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -149,7 +149,7 @@ const seatsGaleria = [
  ,{ "id" : "Galeria Lateral E-6", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Lateral E-5", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
  ,{ "id" : "Galeria Lateral E-4", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria Lateral E-3", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral E-3", "zone":"Galeria Lateral", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
  ,{ "id" : "Galeria Lateral E-2", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Lateral E-1", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Lateral F-30", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}   
@@ -164,7 +164,7 @@ const seatsGaleria = [
  ,{ "id" : "Galeria Lateral F-21", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Central F-20", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Central F-19", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria Central F-18", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Central F-18", "zone":"Galeria Central", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
  ,{ "id" : "Galeria Central F-17", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Central F-16", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Central F-15", "zone":"Galeria Central", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -176,7 +176,7 @@ const seatsGaleria = [
  ,{ "id" : "Galeria Lateral F-9", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Lateral F-8", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Lateral F-7", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
- ,{ "id" : "Galeria Lateral F-6", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+ ,{ "id" : "Galeria Lateral F-6", "zone":"Galeria Lateral", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
  ,{ "id" : "Galeria Lateral F-5", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
  ,{ "id" : "Galeria Lateral F-4", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
  ,{ "id" : "Galeria Lateral F-3", "zone":"Galeria Lateral", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -186,7 +186,7 @@ const seatsGaleria = [
 
 const seatsPalcosAltos = [ 
   ,{ "id" : "Palcos Altos G-30", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}   
-  ,{ "id" : "Palcos Altos G-29", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Altos G-29", "zone":"Palcos Altos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Palcos Altos G-28", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos G-27", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos G-26", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
@@ -203,7 +203,7 @@ const seatsPalcosAltos = [
   ,{ "id" : "Palcos Altos G-15", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos G-14", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos G-13", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Palcos Altos G-12", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Altos G-12", "zone":"Palcos Altos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
   ,{ "id" : "Palcos Altos G-11", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos G-10", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos G-9", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -221,7 +221,7 @@ const seatsPalcosAltos = [
   ,{ "id" : "Palcos Altos H-27", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos H-26", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos H-25", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Palcos Altos H-24", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Altos H-24", "zone":"Palcos Altos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
   ,{ "id" : "Palcos Altos H-23", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos H-22", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos H-21", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -241,7 +241,7 @@ const seatsPalcosAltos = [
   ,{ "id" : "Palcos Altos H-7", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos H-6", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos H-5", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
-  ,{ "id" : "Palcos Altos H-4", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Altos H-4", "zone":"Palcos Altos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
   ,{ "id" : "Palcos Altos H-3", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos H-2", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos H-1", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}
@@ -255,7 +255,7 @@ const seatsPalcosAltos = [
   ,{ "id" : "Palcos Altos I-23", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos I-22", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos I-21", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Palcos Altos I-20", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Altos I-20", "zone":"Palcos Altos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Palcos Altos I-19", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos I-18", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos I-17", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -265,7 +265,7 @@ const seatsPalcosAltos = [
   ,{ "id" : "Palcos Altos I-13", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos I-12", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos I-11", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Palcos Altos I-10", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Altos I-10", "zone":"Palcos Altos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
   ,{ "id" : "Palcos Altos I-9", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos I-8", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Altos I-7", "zone":"Palcos Altos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -282,7 +282,7 @@ const seatsPalcosBajos = [
   ,{ "id" : "Palcos Bajos J-29", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos J-28", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos J-27", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Palcos Bajos J-26", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
+  ,{ "id" : "Palcos Bajos J-26", "zone":"Palcos Bajos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Palcos Bajos J-25", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos J-24", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos J-23", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -293,7 +293,7 @@ const seatsPalcosBajos = [
   ,{ "id" : "Palcos Bajos J-18", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos J-17", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos J-16", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
-  ,{ "id" : "Palcos Bajos J-15", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Bajos J-15", "zone":"Palcos Bajos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Palcos Bajos J-14", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos J-13", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos J-12", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -306,7 +306,7 @@ const seatsPalcosBajos = [
   ,{ "id" : "Palcos Bajos J-5", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos J-4", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos J-3", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Palcos Bajos J-2", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Bajos J-2", "zone":"Palcos Bajos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
   ,{ "id" : "Palcos Bajos J-1", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos K-30", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}   
   ,{ "id" : "Palcos Bajos K-29", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -322,7 +322,7 @@ const seatsPalcosBajos = [
   ,{ "id" : "Palcos Bajos K-19", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos K-18", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos K-17", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Palcos Bajos K-16", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Bajos K-16", "zone":"Palcos Bajos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
   ,{ "id" : "Palcos Bajos K-15", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos K-14", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos K-13", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -350,7 +350,7 @@ const seatsPalcosBajos = [
   ,{ "id" : "Palcos Bajos L-21", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos L-20", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
   ,{ "id" : "Palcos Bajos L-19", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Palcos Bajos L-18", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Bajos L-18", "zone":"Palcos Bajos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Palcos Bajos L-17", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos L-16", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
   ,{ "id" : "Palcos Bajos L-15", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -364,7 +364,7 @@ const seatsPalcosBajos = [
   ,{ "id" : "Palcos Bajos L-7", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos L-6", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos L-5", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Palcos Bajos L-4", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Palcos Bajos L-4", "zone":"Palcos Bajos", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
   ,{ "id" : "Palcos Bajos L-3", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos L-2", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Palcos Bajos L-1", "zone":"Palcos Bajos", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
@@ -376,7 +376,7 @@ const seatsPlatea = [
   ,{ "id" : "Platea M-28", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea M-27", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea M-26", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
-  ,{ "id" : "Platea M-25", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Platea M-25", "zone":"Platea", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}
   ,{ "id" : "Platea M-24", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea M-23", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea M-22", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -387,7 +387,7 @@ const seatsPlatea = [
   ,{ "id" : "Platea M-17", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea M-16", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
   ,{ "id" : "Platea M-15", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Platea M-14", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Platea M-14", "zone":"Platea", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Platea M-13", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea M-12", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea M-11", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -398,7 +398,7 @@ const seatsPlatea = [
   ,{ "id" : "Platea M-6", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea M-5", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea M-4", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Platea M-3", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Platea M-3", "zone":"Platea", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Platea M-2", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea M-1", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false}
   ,{ "id" : "Platea N-30", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}   
@@ -415,7 +415,7 @@ const seatsPlatea = [
   ,{ "id" : "Platea N-19", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea N-18", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea N-17", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Platea N-16", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}  
+  ,{ "id" : "Platea N-16", "zone":"Platea", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}  
   ,{ "id" : "Platea N-15", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea N-14", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea N-13", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -430,7 +430,7 @@ const seatsPlatea = [
   ,{ "id" : "Platea N-4", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea N-3", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea N-2", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Platea N-1", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false}  
+  ,{ "id" : "Platea N-1", "zone":"Platea", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'}  
   ,{ "id" : "Platea O-30", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false}   
   ,{ "id" : "Platea O-29", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea O-28", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
@@ -452,7 +452,7 @@ const seatsPlatea = [
   ,{ "id" : "Platea O-12", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea O-11", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea O-10", "zone":"Platea", "color":"darkseagreen", "price" : "$/ 50.00", "category" : "kids", "free": false} 
-  ,{ "id" : "Platea O-9", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
+  ,{ "id" : "Platea O-9", "zone":"Platea", "color":"silver", "price" : "$/ 50.00", "category" : "kids", "free": 'occupied'} 
   ,{ "id" : "Platea O-8", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false}  
   ,{ "id" : "Platea O-7", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
   ,{ "id" : "Platea O-6", "zone":"Platea", "color":"darkseagreen", "price" :  "$/ 50.00", "category" : "kids", "free": false} 
