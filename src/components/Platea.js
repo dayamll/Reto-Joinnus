@@ -1,7 +1,7 @@
 import React from 'react';
 import { Popup, Button, Icon } from 'semantic-ui-react'
 
-const Platea = ({choosepla, seatsPla, ver_asientos, allzone, volver}) => {
+const Platea = ({move, zoom, zoomdata,choosepla, seatsPla, ver_asientos, allzone, volver}) => {
   const mapSvg = seatsPla.map((seat)=> {
     return(
       <Popup 
@@ -24,12 +24,16 @@ const Platea = ({choosepla, seatsPla, ver_asientos, allzone, volver}) => {
             }></div>
         </div>
         <div className={allzone[4].svg}>
+        <div id='cazuela-big' onMouseMove={(event)=>{move()}}>
+            <div id={zoomdata[4].scale}>
           {mapSvg}
-          <Button size="small" onClick={(event)=>{volver(allzone[4].id);}}>Volver</Button>
-          <Button icon>
+           </div>
+          </div>
+          <Button className='btn-volver' size="small" onClick={(event)=>{volver(allzone[4].id);}}>Volver</Button>
+          <Button icon onClick={(event)=>{zoom(zoomdata[4].id)}}>
             <Icon name='zoom' />
           </Button>
-          <Button icon>
+          <Button icon onClick={(event)=>{zoom(zoomdata[4].id)}}>
             <Icon name='zoom out' />
           </Button>
         </div>

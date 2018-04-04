@@ -7,6 +7,7 @@ const Reducer = (state = INIT_STATE, action) => {
   let trueSeatsPalAlt = [];
   let trueSeatsPalBaj = [];
   let trueSeatsPla = [];
+  let trueZoom = [];
   switch (action.type) {
     case 'CHOOSECAZ':
       state['seatsCaz'].map((seat) => {
@@ -36,7 +37,7 @@ const Reducer = (state = INIT_STATE, action) => {
       };
       case 'CHOOSEGAL':
       state['seatsGal'].map((seat) => {
-        if (seat['id'] == action['id']) {
+        if (seat['id'] == action['id'] && seat['free'] !== 'occupied') {
           if (seat['free']) {
             trueSeatsGal.push({ ...seat,
               free: false,
@@ -48,6 +49,10 @@ const Reducer = (state = INIT_STATE, action) => {
               color: 'red'
             });
           }
+        } else if(seat['id'] == action['id'] && seat['free'] == 'occupied'){
+          trueSeatsGal.push({ ...seat,
+            color: 'silver'
+          });
         } else {
           trueSeatsGal.push({ ...seat
           });
@@ -58,7 +63,7 @@ const Reducer = (state = INIT_STATE, action) => {
       };
       case 'CHOOSEPALALT':
       state['seatsPalAlt'].map((seat) => {
-        if (seat['id'] == action['id']) {
+        if (seat['id'] == action['id'] && seat['free'] !== 'occupied') {
           if (seat['free']) {
             trueSeatsPalAlt.push({ ...seat,
               free: false,
@@ -70,6 +75,10 @@ const Reducer = (state = INIT_STATE, action) => {
               color: 'red'
             });
           }
+        } else if(seat['id'] == action['id'] && seat['free'] == 'occupied'){
+          trueSeatsPalAlt.push({ ...seat,
+            color: 'silver'
+          });
         } else {
           trueSeatsPalAlt.push({ ...seat
           });
@@ -80,11 +89,15 @@ const Reducer = (state = INIT_STATE, action) => {
       };
       case 'CHOOSEPALBAJ':
       state['seatsPalBaj'].map((seat) => {
-        if (seat['id'] == action['id']) {
+        if (seat['id'] == action['id'] && seat['free'] !== 'occupied') {
           if (seat['free']) {
             trueSeatsPalBaj.push({ ...seat,
               free: false,
               color: 'darkseagreen'
+            });
+          } else if(seat['id'] == action['id'] && seat['free'] == 'occupied'){
+            trueSeatsPalBaj.push({ ...seat,
+              color: 'silver'
             });
           } else {
             trueSeatsPalBaj.push({ ...seat,
@@ -102,11 +115,15 @@ const Reducer = (state = INIT_STATE, action) => {
       };
       case 'CHOOSEPLA':
       state['seatsPla'].map((seat) => {
-        if (seat['id'] == action['id']) {
+        if (seat['id'] == action['id'] && seat['free'] !== 'occupied') {
           if (seat['free']) {
             trueSeatsPla.push({ ...seat,
               free: false,
               color: 'darkseagreen'
+            });
+          } else if(seat['id'] == action['id'] && seat['free'] == 'occupied'){
+            trueSeatsPla.push({ ...seat,
+              color: 'silver'
             });
           } else {
             trueSeatsPla.push({ ...seat,
@@ -158,12 +175,34 @@ const Reducer = (state = INIT_STATE, action) => {
         return { ...state,
           allzone: falseZone
         };
-      case 'ZOOM':
-      if (document.getElementById('div-cazuela').style.transform == 'scale(1.0)') {
-		    document.getElementById('div-cazuela').style.transform = 'scale(2.2)';
-		} else {
-			document.getElementById('div-cazuela').style.transform = 'scale(1.0)'
-		}
+        case 'ZOOM':
+        state['zoomdata'].map((divZoom) => {
+          if (divZoom['id'] == action['id']) {
+            if (!divZoom['zoom']) {
+              trueZoom.push({ ...divZoom,
+                zoom: true,
+                scale: 'zoomin'
+              });
+            }else {
+              trueZoom.push({ ...divZoom,
+                zoom: false,
+                scale: 'zoomout'
+              });
+            }
+          } else {
+            trueZoom.push({ ...divZoom
+            });
+          }
+        });
+          return { ...state,
+            zoomdata: trueZoom
+          };
+      // case 'MOVE':
+      // var x = -(event.clientX/10);
+      // var y = -(event.clientY/10);
+      // document.getElementById('zoomin').style.marginLeft = x + 'px';
+      // document.getElementById('zoomin').style.marginTop = y + 'px';
+
       default:
         return state;
     }

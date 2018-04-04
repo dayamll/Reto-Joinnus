@@ -4,9 +4,23 @@
   margin-top: 50px;
 }
 
-#div-cazuela {
+#zoomout {
   width: 100%;
-  transform: scale(1.0)
+  transform: scale(1.0);
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+#zoomin {
+  transform: scale(2.2);
+  cursor: move;
+}
+
+#cazuela-big{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .box {
@@ -30,7 +44,7 @@
 .cazuela {
   width: 100%;
   height: 120px;
-  background-color: darkseagreen;
+  background-color: #a4c354;
   margin: 10px;
 }
 
@@ -60,4 +74,50 @@
   height: 120px;
   background-color: darkslateblue;
   margin: 10px;
+}
+
+.libre-box {
+  width:20px;
+  height:15px;
+  background-color:darkseagreen;
+}
+
+.seleccionado-box {
+  width:20px;
+  height:15px;
+  background-color:red;
+}
+
+.ocupado-box {
+  width:20px;
+  height:15px;
+  background-color:silver;
+}
+
+#Leyenda table{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+#Leyenda p{
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+#Leyenda button {
+  background-color: #42a692;
+  color: white;
+  float: left;
+  margin-right: 100px;
+}
+
+#Leyenda {
+  position: absolute;
+  top: 40px;
+  left: 20%;
+}
+
+.row .btn-volver {
+  margin-left: 40%;
 }

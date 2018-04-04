@@ -6,24 +6,26 @@ import Galeria from './Galeria';
 import Palcosalt from './Palcos_altos';
 import Palcosbaj from './Palcos_bajos';
 import Platea from './Platea';
+import Leyenda from './Leyenda'
 
-const App = ({zoom,zoomout,choosecaz,choosegal,choosepalalt,choosepalbaj,choosepla, seatsCaz,seatsGal, seatsPalAlt,seatsPalBaj, seatsPla, ver_asientos, allzone, volver }) => (
+const App = ({move,zoom,zoomdata,choosecaz,choosegal,choosepalalt,choosepalbaj,choosepla, seatsCaz,seatsGal, seatsPalAlt,seatsPalBaj, seatsPla, ver_asientos, allzone, volver }) => (
   <div>
     <div className="butacs">
-    <div className="box">Escenario</div>
-      <Cazuela zoom={zoom} zoomout={zoomout} choosecaz={choosecaz} seatsCaz={seatsCaz} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
-      <Galeria choosegal={choosegal} seatsGal={seatsGal} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
-      <Palcosalt choosepalalt={choosepalalt} seatsPalAlt={seatsPalAlt} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
-      <Palcosbaj choosepalbaj={choosepalbaj} seatsPalBaj={seatsPalBaj} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
-      <Platea choosepla={choosepla} seatsPla={seatsPla} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+    <div className="box"></div>
+      <Leyenda />
+      <Cazuela move={move} zoom={zoom} zoomdata={zoomdata} choosecaz={choosecaz} seatsCaz={seatsCaz} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <Galeria move={move} zoom={zoom} zoomdata={zoomdata} choosegal={choosegal} seatsGal={seatsGal} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <Palcosalt move={move} zoom={zoom} zoomdata={zoomdata} choosepalalt={choosepalalt} seatsPalAlt={seatsPalAlt} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <Palcosbaj move={move} zoom={zoom} zoomdata={zoomdata} choosepalbaj={choosepalbaj} seatsPalBaj={seatsPalBaj} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <Platea move={move} zoom={zoom} zoomdata={zoomdata} choosepla={choosepla} seatsPla={seatsPla} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
     </div>
   </div>
 );
 
 const mapDispatchToProps = (dispatch) => ({
-  zoomout(id) {
+  move(id) {
     dispatch({
-      type: 'ZOOMOUT',
+      type: 'MOVE',
       id
     })
   },
@@ -77,13 +79,14 @@ const mapDispatchToProps = (dispatch) => ({
   }
 });
 
-const mapStateToProps = ({ seatsGal, allzone, seatsCaz, seatsPalAlt, seatsPalBaj, seatsPla }) => ({
+const mapStateToProps = ({ seatsGal, allzone, seatsCaz, seatsPalAlt, seatsPalBaj, seatsPla, zoomdata }) => ({
   seatsCaz,
   seatsGal,
   seatsPalAlt,
   seatsPalBaj,
   seatsPla,
-  allzone
+  allzone,
+  zoomdata
 });
 
 export default connect(

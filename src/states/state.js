@@ -471,13 +471,22 @@ const allZone = [
   {'id':'Platea','click': true, 'display': 'show', 'svg':'hide', 'volver': false}
   ]  
 
+const Zoom = [
+  {'id':'Cazuela','zoom':false, 'scale' : 'zoomout'},
+  {'id':'Galeria','zoom':false, 'scale' : 'zoomout'},
+  {'id':'PalcosAltos','zoom':false, 'scale' : 'zoomout'},
+  {'id':'PalcosBajos','zoom':false, 'scale' : 'zoomout'},
+  {'id':'Platea','zoom':false, 'scale' : 'zoomout'},
+]
+
   const INIT_STATE = {
     seatsCaz: seatsCazuela,
     seatsGal: seatsGaleria,
     seatsPalAlt: seatsPalcosAltos,
     seatsPalBaj: seatsPalcosBajos,
     seatsPla: seatsPlatea,
-    allzone : allZone
+    allzone : allZone,
+    zoomdata : Zoom
   };
 
   export default INIT_STATE;
