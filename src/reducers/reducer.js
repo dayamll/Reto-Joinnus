@@ -158,6 +158,12 @@ const Reducer = (state = INIT_STATE, action) => {
         return { ...state,
           allzone: falseZone
         };
+      case 'ZOOM':
+      if (document.getElementById('div-cazuela').style.transform == 'scale(1.0)') {
+		    document.getElementById('div-cazuela').style.transform = 'scale(2.2)';
+		} else {
+			document.getElementById('div-cazuela').style.transform = 'scale(1.0)'
+		}
       default:
         return state;
     }

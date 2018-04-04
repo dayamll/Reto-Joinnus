@@ -7,11 +7,11 @@ import Palcosalt from './Palcos_altos';
 import Palcosbaj from './Palcos_bajos';
 import Platea from './Platea';
 
-const App = ({ choosecaz,choosegal,choosepalalt,choosepalbaj,choosepla, seatsCaz,seatsGal, seatsPalAlt,seatsPalBaj, seatsPla, ver_asientos, allzone, volver }) => (
+const App = ({zoom,zoomout,choosecaz,choosegal,choosepalalt,choosepalbaj,choosepla, seatsCaz,seatsGal, seatsPalAlt,seatsPalBaj, seatsPla, ver_asientos, allzone, volver }) => (
   <div>
     <div className="butacs">
     <div className="box">Escenario</div>
-      <Cazuela choosecaz={choosecaz} seatsCaz={seatsCaz} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <Cazuela zoom={zoom} zoomout={zoomout} choosecaz={choosecaz} seatsCaz={seatsCaz} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
       <Galeria choosegal={choosegal} seatsGal={seatsGal} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
       <Palcosalt choosepalalt={choosepalalt} seatsPalAlt={seatsPalAlt} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
       <Palcosbaj choosepalbaj={choosepalbaj} seatsPalBaj={seatsPalBaj} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
@@ -21,6 +21,18 @@ const App = ({ choosecaz,choosegal,choosepalalt,choosepalbaj,choosepla, seatsCaz
 );
 
 const mapDispatchToProps = (dispatch) => ({
+  zoomout(id) {
+    dispatch({
+      type: 'ZOOMOUT',
+      id
+    })
+  },
+  zoom(id) {
+    dispatch({
+      type: 'ZOOM',
+      id
+    })
+  },
   choosegal(id) {
     dispatch({
       type: 'CHOOSEGAL',

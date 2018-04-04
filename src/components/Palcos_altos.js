@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popup, Button } from 'semantic-ui-react'
+import { Popup, Button, Icon } from 'semantic-ui-react'
 
 const Palcosalt = ({choosepalalt, seatsPalAlt, ver_asientos, allzone, volver}) => {
   const mapSvg = seatsPalAlt.map((seat)=> {
@@ -26,6 +26,12 @@ const Palcosalt = ({choosepalalt, seatsPalAlt, ver_asientos, allzone, volver}) =
         <div className={allzone[2].svg}>
           {mapSvg}
           <Button size="small" onClick={(event)=>{volver(allzone[2].id);}}>Volver</Button>
+          <Button icon>
+            <Icon name='zoom' />
+          </Button>
+          <Button icon>
+            <Icon name='zoom out' />
+          </Button>
         </div>
       </div>
    </div>

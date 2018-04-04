@@ -4,8 +4,9 @@
   margin-top: 50px;
 }
 
-#center {
+#div-cazuela {
   width: 100%;
+  transform: scale(1.0)
 }
 
 .box {
