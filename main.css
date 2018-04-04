@@ -4,6 +4,10 @@
   margin-top: 50px;
 }
 
+#center {
+  width: 100%;
+}
+
 .box {
   /* border: 5px solid black;   */
   width: 100%;

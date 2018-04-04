@@ -1,15 +1,15 @@
 import React from 'react';
 import { Popup, Button } from 'semantic-ui-react'
 
-const Galeria = ({choose, seatsGal, ver_asientos, allzone, volver}) => {
+const Galeria = ({choosegal, seatsGal, ver_asientos, allzone, volver}) => {
   const mapSvg = seatsGal.map((seat)=> {
     return(
       <Popup 
         trigger={
           <svg id={seat.id} height="25" width="35">
-            <rect cx="20" cy="20"  rx="5" ry="40" width="25" height="25"  fill={seat.color} onClick={(event)=>{choose(seat.id);}} />
+            <rect cx="20" cy="20"  rx="5" ry="40" width="25" height="25"  fill={seat.color} onClick={(event)=>{choosegal(seat.id);}} />
           </svg>}
-        header={seat.id}
+        header={seat.id + ' ' + seat.category }
         content={'Precio: ' +seat.price}
       />
     )

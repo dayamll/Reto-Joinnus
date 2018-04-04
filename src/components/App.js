@@ -7,23 +7,47 @@ import Palcosalt from './Palcos_altos';
 import Palcosbaj from './Palcos_bajos';
 import Platea from './Platea';
 
-const App = ({ choose, seatsCaz,seatsGal, seatsPalAlt,seatsPalBaj, seatsPla, ver_asientos, allzone, volver }) => (
+const App = ({ choosecaz,choosegal,choosepalalt,choosepalbaj,choosepla, seatsCaz,seatsGal, seatsPalAlt,seatsPalBaj, seatsPla, ver_asientos, allzone, volver }) => (
   <div>
     <div className="butacs">
     <div className="box">Escenario</div>
-      <Cazuela choose={choose} seatsCaz={seatsCaz} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
-      <Galeria choose={choose} seatsGal={seatsGal} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
-      <Palcosalt choose={choose} seatsPalAlt={seatsPalAlt} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
-      <Palcosbaj choose={choose} seatsPalBaj={seatsPalBaj} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
-      <Platea choose={choose} seatsPla={seatsPla} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <Cazuela choosecaz={choosecaz} seatsCaz={seatsCaz} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <Galeria choosegal={choosegal} seatsGal={seatsGal} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <Palcosalt choosepalalt={choosepalalt} seatsPalAlt={seatsPalAlt} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <Palcosbaj choosepalbaj={choosepalbaj} seatsPalBaj={seatsPalBaj} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
+      <Platea choosepla={choosepla} seatsPla={seatsPla} ver_asientos={ver_asientos} allzone={allzone} volver={volver}/>
     </div>
   </div>
 );
 
 const mapDispatchToProps = (dispatch) => ({
-  choose(id) {
+  choosegal(id) {
     dispatch({
-      type: 'CHOOSE',
+      type: 'CHOOSEGAL',
+      id
+    })
+  },
+  choosepalbaj(id) {
+    dispatch({
+      type: 'CHOOSEPALBAJ',
+      id
+    })
+  },
+  choosepalalt(id) {
+    dispatch({
+      type: 'CHOOSEPALALT',
+      id
+    })
+  },
+  choosepla(id) {
+    dispatch({
+      type: 'CHOOSEPLA',
+      id
+    })
+  },
+  choosecaz(id) {
+    dispatch({
+      type: 'CHOOSECAZ',
       id
     })
   },
